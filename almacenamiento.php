@@ -1,8 +1,15 @@
 <?php
-$destino= "kuenta264@gmail.com";
+$destino= "participantes.txt";
 $nombres= $_POST{"Nombre"};
 $apellido=$_POST{"Apellido"};
+$abre = fopen($destino, "r");
 $contenido = "Nombre: " . $nombres . "\nApellido: " . $apellido;
-mail($destino, "Contacto", $contenido);
-header("Location:mensaje.html");
+fclose($destino);
+if (ingresar) {
+ $abre = fopen($destino, "w");
+ $destino= fwrite($contenido);
+ fclose($abre)
+}
+header= ("Location=mensaje.html");
+
 ?>
