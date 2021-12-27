@@ -8,26 +8,12 @@
     <title>Pantalla de inicio</title>
 </head>
 <body>
-    <form class="form-Inicio" action:"https://sheetdb.io/api/v1/a2pn99gywy7b1" method="POST" id= "sheetdb-form">
+    <form id = "form-Inicio" class="form-Inicio">
         <H2>Por favor, ingrese sus datos</H2>
-        <input class="controls" type="text" name="data[nombre]" id="Nombre" placeholder="Ingrese su nombre" required>
-        <input class="controls" type="text" name="data[apellido]" id="Apellido" placeholder="Ingrese su Apellido" required>
+        <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" required>
+        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" required>
         <input class="botons"  type="submit" value="Ingresar">
     </form>
+<script src="app.js"></script>
 </body>
-<Script>
-    var form = document.getElementById('sheetdb-form');
-    form.addEventListener("submit", e => {
-        e.preventDefault();
-        fetch(form.action, {
-            method:"POST",
-            body: new FormData(document.getElementById("sheetdb-form")),
-        }).then(
-            response => response.json()
-        ).then((html)=>{
-            // you can put any JS code here
-            alert('success')
-        });
-    });
-</Script>
 </html>
