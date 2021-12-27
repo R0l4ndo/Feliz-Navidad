@@ -16,3 +16,14 @@ formulario.addEventListener('submit', (e) => {
     });
 
 });
+
+
+function validar() {
+    var user = document.getElementById('Nombre').value;
+    var user2 = document.getElementById('Apellido').value;
+    if (user == "Rolan" && user2=="Alburqueque") {
+        alert("ingresa we");
+    } else {
+        alert("ingreso fallido");
+    }
+}
