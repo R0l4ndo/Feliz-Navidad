@@ -2,7 +2,7 @@ const formulario = document.getElementById('form-Inicio');
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    fetch('https://sheet.best/api/sheets/341aee14-b767-459d-816c-d9aff760687a', {
+    fetch('', {
         method: 'POST',
         mode: 'cors',
         headers: {
@@ -23,12 +23,23 @@ function validar() {
     const sonido = document.getElementById('sonido');
     if (user == "Rolan" && user2=="Alburqueque") {
         sonido.innerHTML = '<audio src="Ese no se qué.mp3" controls></audio>';
-        Swal.fire({
-            title: "Esta es una indirecta?",
-            text: "Creo que si",
-            allowOutsideClick: true,
-            allowEscape
+        const { value: linea1 } = await Swal.fire({
+            title: "Cancion",
+            text: "Primera linea",
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            confirmButtonText: "Siguiente",
         });
+        if (linea1) {
+            const { value: linea2} = await Swal.fire({
+            title: "Esta es una indirecta?",
+            text: "Prueba2",
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            confirmButtonText: 'Siguiente',
+        });
+        
+        }
 
     } else {
         alert("ingreso fallido");
