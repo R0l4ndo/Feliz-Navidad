@@ -22,7 +22,10 @@ function validar() {
     var user = document.getElementById('Nombre').value;
     var user2 = document.getElementById('Apellido').value;
     if (user == "Rolan" && user2=="Alburqueque") {
-        alert("ingresa we");
+        Swal.fire({
+            title: "Hola",
+            text: "Espero que estes bien",
+        });
     } else {
         alert("ingreso fallido");
     }
