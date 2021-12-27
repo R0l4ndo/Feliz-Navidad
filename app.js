@@ -1,5 +1,4 @@
 const formulario = document.getElementById('form-Inicio');
-
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -14,18 +13,23 @@ formulario.addEventListener('submit', (e) => {
             "Apellido": formulario.Apellido.value
         })
     });
-
+    
 });
 
 
 function validar() {
     var user = document.getElementById('Nombre').value;
     var user2 = document.getElementById('Apellido').value;
+    const sonido = document.getElementById('sonido');
     if (user == "Rolan" && user2=="Alburqueque") {
+        sonido.innerHTML = '<audio src="Ese no se qué.mp3" controls></audio>';
         Swal.fire({
-            title: "Hola",
-            text: "Espero que estes bien",
+            title: "Esta es una indirecta?",
+            text: "Creo que si",
+            allowOutsideClick: true,
+            allowEscape
         });
+
     } else {
         alert("ingreso fallido");
     }
