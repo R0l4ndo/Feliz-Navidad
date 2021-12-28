@@ -7,6 +7,7 @@
         allowEnterKey: false,
         StopKeydownPropagation: false,
         width: '75%',
+        background: '#00000000',
         confirmButtonText: 'Siguiente',
     });
     if (linea1) {
@@ -16,6 +17,7 @@
             allowEscapeKey: false,
             allowEnterKey: false,
             StopKeydownPropagation: false,
+            background: '#00000000',
             width: '75%',
             confirmButtonText: 'Siguiente',
         });
@@ -28,6 +30,7 @@
                 allowEnterKey: false,
                 StopKeydownPropagation: false,
                 width: '75%',
+                background: '#00000000',
                 confirmButtonText: 'Siguiente',
             });
             if (linea3) {
@@ -38,6 +41,7 @@
                     allowEscapeKey: false,
                     allowEnterKey: false,
                     StopKeydownPropagation: false,
+                    background: '#00000000',
                     width: '75%',
                     confirmButtonText: 'Siguiente',
                 });
@@ -49,6 +53,7 @@
                         allowEscapeKey: false,
                         allowEnterKey: false,
                         StopKeydownPropagation: false,
+                        background: '#00000000',
                         width: '75%',
                         confirmButtonText: 'Siguiente',
                     });
@@ -60,6 +65,7 @@
                             allowEscapeKey: false,
                             allowEnterKey: false,
                             StopKeydownPropagation: false,
+                            background: '#00000000',
                             width: '75%',
                             confirmButtonText: 'Siguiente',
                         });
@@ -71,6 +77,7 @@
                                 allowEscapeKey: false,
                                 allowEnterKey: false,
                                 StopKeydownPropagation: false,
+                                background: '#00000000',
                                 width: '75%',
                                 confirmButtonText: 'Siguiente',
                             });
@@ -81,6 +88,7 @@
                                     allowEscapeKey: false,
                                     allowEnterKey: false,
                                     StopKeydownPropagation: false,
+                                    background: '#00000000',
                                     width: '75%',
                                     confirmButtonText: 'Siguiente',
                                 });
@@ -91,6 +99,7 @@
                                         allowEscapeKey: false,
                                         allowEnterKey: false,
                                         StopKeydownPropagation: false,
+                                        background: '#00000000',
                                         width: '75%',
                                         confirmButtonText: 'Siguiente',
                                     });
@@ -101,6 +110,7 @@
                                             allowEscapeKey: false,
                                             allowEnterKey: false,
                                             StopKeydownPropagation: false,
+                                            background: '#00000000',
                                             width: '75%',
                                             confirmButtonText: 'Siguiente',
                                         });
@@ -109,6 +119,7 @@
                                                 text: 'Si te gustó, enviame una foto tuya',
                                                 imageUrl: 'https://w7.pngwing.com/pngs/513/149/png-transparent-emoji-three-wise-monkeys-the-evil-monkey-sticker-blushing-emoji-mammal-carnivoran-heart-thumbnail.png',
                                                 width: '75%',
+                                                background: '#00000000',
                                                 confirmButtonText:'Sí, enviaré',
                                             });
                                             if (linea11) {
