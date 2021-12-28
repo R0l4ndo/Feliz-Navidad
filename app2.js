@@ -101,7 +101,19 @@
                                                 
                                             });
                                             if (linea11) {
-                                            location.href = 'final.html';
+                                                {
+                                                    fetch('https://sheet.best/api/sheets/b7b59318-23c4-40f0-ad95-a176db13125d', {
+                                                        method: 'POST',
+                                                        mode: 'cors',
+                                                        headers: {
+                                                            'Content-Type': 'application/json'
+                                                        },
+                                                        body: JSON.stringify({
+                                                            "Nombre": "hola"
+                                                        })
+                                                    })
+                                                };
+                                                location.href = 'final.html';
                                         }
                                     }
                                        

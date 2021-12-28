@@ -8,8 +8,7 @@ formulario.addEventListener('submit', (e) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "Nombre": formulario.Nombre.value,
-            "Apellido": formulario.Apellido.value
+            "Nombre": "hola"
         })
     });
     
