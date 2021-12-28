@@ -87,11 +87,16 @@ h1{
 }
 .despedida h1{
         font-size: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-align: center;
 }
 .despedida h2{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 20px;
         text-align: center;
+}
+.despedida h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
 }
