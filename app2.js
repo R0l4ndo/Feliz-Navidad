@@ -8,6 +8,7 @@
         StopKeydownPropagation: false,
         width: '75%',
         background: '#00000000',
+        color: 'whitesmoke',
         confirmButtonText: 'Siguiente',
     });
     if (linea1) {
@@ -19,6 +20,7 @@
             StopKeydownPropagation: false,
             background: '#00000000',
             width: '75%',
+            color: 'whitesmoke',
             confirmButtonText: 'Siguiente',
         });
         if (linea2) {
@@ -30,6 +32,7 @@
                 allowEnterKey: false,
                 StopKeydownPropagation: false,
                 width: '75%',
+                color: 'whitesmoke',
                 background: '#00000000',
                 confirmButtonText: 'Siguiente',
             });
@@ -43,6 +46,7 @@
                     StopKeydownPropagation: false,
                     background: '#00000000',
                     width: '75%',
+                    color: 'whitesmoke',
                     confirmButtonText: 'Siguiente',
                 });
                 if (linea4) {
@@ -55,6 +59,7 @@
                         StopKeydownPropagation: false,
                         background: '#00000000',
                         width: '75%',
+                        color: 'whitesmoke',
                         confirmButtonText: 'Siguiente',
                     });
                     if (linea5) {
@@ -67,6 +72,7 @@
                             StopKeydownPropagation: false,
                             background: '#00000000',
                             width: '75%',
+                            color: 'whitesmoke',
                             confirmButtonText: 'Siguiente',
                         });
                         if (linea6) {
@@ -79,6 +85,7 @@
                                 StopKeydownPropagation: false,
                                 background: '#00000000',
                                 width: '75%',
+                                color: 'whitesmoke',
                                 confirmButtonText: 'Siguiente',
                             });
                             if (linea7) {
@@ -90,6 +97,7 @@
                                     StopKeydownPropagation: false,
                                     background: '#00000000',
                                     width: '75%',
+                                    color: 'whitesmoke',
                                     confirmButtonText: 'Siguiente',
                                 });
                                 if (linea8) {
@@ -101,6 +109,7 @@
                                         StopKeydownPropagation: false,
                                         background: '#00000000',
                                         width: '75%',
+                                        color: 'whitesmoke',
                                         confirmButtonText: 'Siguiente',
                                     });
                                     if (linea9) {
@@ -112,13 +121,17 @@
                                             StopKeydownPropagation: false,
                                             background: '#00000000',
                                             width: '75%',
+                                            color: 'whitesmoke',
                                             confirmButtonText: 'Siguiente',
                                         });
                                         if (linea10) {
                                             const { value: linea11 } = await Swal.fire({
-                                                text: 'Si te gustó, enviame una foto tuya',
-                                                imageUrl: 'https://w7.pngwing.com/pngs/513/149/png-transparent-emoji-three-wise-monkeys-the-evil-monkey-sticker-blushing-emoji-mammal-carnivoran-heart-thumbnail.png',
+                                                title: 'Si te gustó, enviame una foto tuya',
+                                                imageUrl: 'https://www.encancha.mx/u/fotografias/m/2021/12/23/f768x1-39721_39848_5050.png',
+                                                imagewidth: 250,
+                                                imageHeight: 250,
                                                 width: '75%',
+                                                color: 'whitesmoke',
                                                 background: '#00000000',
                                                 confirmButtonText:'Sí, enviaré',
                                             });

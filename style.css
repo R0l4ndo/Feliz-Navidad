@@ -99,10 +99,10 @@ h1{
 }
 
 
-.swal2-title {
-    color: rgb(43, 206, 143);
+.titulo {
+    color: white;
 }
 
-.swal2-html-container {
-    color: rgb(175, 156, 156);
+.contenido {
+    color: whitesmoke;
 }
