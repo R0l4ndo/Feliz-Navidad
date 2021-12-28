@@ -6,6 +6,7 @@
         allowEscapeKey: false,
         allowEnterKey: false,
         StopKeydownPropagation: false,
+        width: '75%',
         confirmButtonText: 'Siguiente',
     });
     if (linea1) {
@@ -15,6 +16,7 @@
             allowEscapeKey: false,
             allowEnterKey: false,
             StopKeydownPropagation: false,
+            width: '75%',
             confirmButtonText: 'Siguiente',
         });
         if (linea2) {
@@ -25,6 +27,7 @@
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 StopKeydownPropagation: false,
+                width: '75%',
                 confirmButtonText: 'Siguiente',
             });
             if (linea3) {
@@ -35,6 +38,7 @@
                     allowEscapeKey: false,
                     allowEnterKey: false,
                     StopKeydownPropagation: false,
+                    width: '75%',
                     confirmButtonText: 'Siguiente',
                 });
                 if (linea4) {
@@ -45,6 +49,7 @@
                         allowEscapeKey: false,
                         allowEnterKey: false,
                         StopKeydownPropagation: false,
+                        width: '75%',
                         confirmButtonText: 'Siguiente',
                     });
                     if (linea5) {
@@ -55,6 +60,7 @@
                             allowEscapeKey: false,
                             allowEnterKey: false,
                             StopKeydownPropagation: false,
+                            width: '75%',
                             confirmButtonText: 'Siguiente',
                         });
                         if (linea6) {
@@ -65,6 +71,7 @@
                                 allowEscapeKey: false,
                                 allowEnterKey: false,
                                 StopKeydownPropagation: false,
+                                width: '75%',
                                 confirmButtonText: 'Siguiente',
                             });
                             if (linea7) {
@@ -74,6 +81,7 @@
                                     allowEscapeKey: false,
                                     allowEnterKey: false,
                                     StopKeydownPropagation: false,
+                                    width: '75%',
                                     confirmButtonText: 'Siguiente',
                                 });
                                 if (linea8) {
@@ -83,6 +91,7 @@
                                         allowEscapeKey: false,
                                         allowEnterKey: false,
                                         StopKeydownPropagation: false,
+                                        width: '75%',
                                         confirmButtonText: 'Siguiente',
                                     });
                                     if (linea9) {
@@ -92,12 +101,14 @@
                                             allowEscapeKey: false,
                                             allowEnterKey: false,
                                             StopKeydownPropagation: false,
+                                            width: '75%',
                                             confirmButtonText: 'Siguiente',
                                         });
                                         if (linea10) {
                                             const { value: linea11 } = await Swal.fire({
                                                 text: 'Si te gustó, enviame una foto tuya',
                                                 imageUrl: 'https://w7.pngwing.com/pngs/513/149/png-transparent-emoji-three-wise-monkeys-the-evil-monkey-sticker-blushing-emoji-mammal-carnivoran-heart-thumbnail.png',
+                                                width: '75%',
                                                 confirmButtonText:'Sí, enviaré',
                                             });
                                             if (linea11) {

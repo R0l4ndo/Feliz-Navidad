@@ -19,7 +19,9 @@ function validar() {
     var user2 = document.getElementById('Apellido').value;
     if (user == "Rosmery" && user2=="contraseña") {
         location.href = 'mensaje.html';
+    } else {
+        alert('Nombre o contraseña es incorrecto')
     }
-    } 
+} 
 
             
