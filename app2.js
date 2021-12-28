@@ -74,7 +74,7 @@
                                     allowEscapeKey: false,
                                     allowEnterKey: false,
                                     StopKeydownPropagation: false,
-                                    confirmButtonText: 'Aceptar',
+                                    confirmButtonText: 'Siguiente',
                                 });
                                 if (linea8) {
                                     const { value: linea9 } = await Swal.fire({
@@ -83,7 +83,7 @@
                                         allowEscapeKey: false,
                                         allowEnterKey: false,
                                         StopKeydownPropagation: false,
-                                        confirmButtonText: 'Aceptar',
+                                        confirmButtonText: 'Siguiente',
                                     });
                                     if (linea9) {
                                         const { value: linea10 } = await Swal.fire({
@@ -92,7 +92,7 @@
                                             allowEscapeKey: false,
                                             allowEnterKey: false,
                                             StopKeydownPropagation: false,
-                                            confirmButtonText: 'Aceptar',
+                                            confirmButtonText: 'Siguiente',
                                         });
                                         if (linea10) {
                                             const { value: linea11 } = await Swal.fire({
