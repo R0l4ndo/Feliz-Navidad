@@ -64,15 +64,15 @@ h1{
 }
 
 .sonido {
-    width: 200px;
-    background: #ffffff;
-    padding: 50px;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
     margin: auto;
     margin-top: 175px;
-    margin-left: 250px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
 
 .despedida{
