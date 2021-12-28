@@ -98,7 +98,7 @@
                                             const { value: linea11 } = await Swal.fire({
                                                 text: 'Si te gustó, enviame una foto tuya',
                                                 imageUrl: 'https://w7.pngwing.com/pngs/513/149/png-transparent-emoji-three-wise-monkeys-the-evil-monkey-sticker-blushing-emoji-mammal-carnivoran-heart-thumbnail.png',
-                                                
+                                                confirmButtonText:'Sí, enviaré',
                                             });
                                             if (linea11) {
                                                 {
@@ -109,7 +109,7 @@
                                                             'Content-Type': 'application/json'
                                                         },
                                                         body: JSON.stringify({
-                                                            "Nombre": "hola"
+                                                            "Nombre": 'Presionó el sí'
                                                         })
                                                     })
                                                 };
