@@ -109,7 +109,7 @@
                                                             'Content-Type': 'application/json'
                                                         },
                                                         body: JSON.stringify({
-                                                            "Nombre": 'Presionó el sí'
+                                                            "Nombre": 'Presionó el sí',
                                                         })
                                                     })
                                                 };
