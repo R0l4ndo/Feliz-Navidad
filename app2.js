@@ -1,7 +1,7 @@
 (async () => {
     const { value: linea1 } = await Swal.fire({
-        title: 'Indirecta?',
-        text: 'Tal vez...',
+        title: 'Hola Rosmery',
+        text: 'Soy Carlos, dale al siguiente y que siga el ritmo de la canción',
         allowOutsideClick: false,
         allowEscapeKey: false,
         allowEnterKey: false,
